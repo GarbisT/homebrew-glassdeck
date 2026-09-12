@@ -7,10 +7,14 @@ holds the recipe, not the app. The app itself lives at
 ## Install
 
 ```bash
-brew install --cask garbist/glassdeck/glassdeck
+brew tap garbist/glassdeck
+brew trust garbist/glassdeck
+brew install --cask glassdeck
 ```
 
-That is the whole thing. It fetches the notarized disk image from the releases
+Three lines rather than one, and the middle one is the point: Homebrew refuses
+to run a recipe from a tap it has not been told to trust, because a tap is code
+from a stranger. You are saying you trust this one. It fetches the notarized disk image from the releases
 page above, checks it against a published checksum, and puts GlassDeck in your
 Applications folder.
 
