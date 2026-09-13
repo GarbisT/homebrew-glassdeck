@@ -1,6 +1,6 @@
 cask "glassdeck" do
-  version "1.3.0"
-  sha256 "1f3cf4ca23b8b99b8738110e83e41249c6fff38fb79ce2ed4c345ee0b311010e"
+  version "1.4.0"
+  sha256 "cb7e95589b3c8afb77d5c0884618ba7b3c485edeb31967cae9869ee05534fc8f"
 
   url "https://github.com/GarbisT/Glassdeck-releases/releases/download/v#{version}/GlassDeck.dmg"
   name "GlassDeck"
